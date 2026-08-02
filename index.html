@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RChallenGenerator</title>
+    </head>
+    <body>
+        <div id="menu">
+
+    <h1>🎲 Random Challenge Generator</h1>
+
+    <h2>Choose your mode</h2>
+
+    <div class="mode-card">
+
+    <button id="easy-btn">
+
+        🟢 Easy Mode
+
+    </button>
+
+    <p>
+        Perfect for building habits.
+    </p>
+
+</div>
+
+    <div class="mode-card">
+
+    <button id="normal-btn">
+
+        🟡 Normal Mode
+
+    </button>
+
+    <p>
+        Good for maintaining consistency.
+    </p>
+
+</div>
+
+    <div class="mode-card">
+
+    <button id="hard-btn">
+
+        🔴 Hard Mode
+
+    </button>
+
+    <p>
+        Challenging for advanced users.
+    </p>
+
+</div>
+
+</div>
+        <div id="generator">
+            <button id="back-btn">← Back</button>
+        <main>
+            <h1>Random Challenge Generator</h1>
+
+            <div class="challenge-box">
+                <div id="difficulty"></div>
+                <p id="challenge">
+                    Press the button to generate a random challenge!
+                </p>
+            </div>
+
+            <div class="categories">
+            <label>
+                <input type="checkbox" value="fun">
+                🎮 Fun
+            </label>
+            <label>
+                <input type="checkbox" value="fitness">
+                💪 Fitness
+            </label>
+
+            <label>
+                <input type="checkbox" value="learning">
+                📚 Learning
+            </label>
+
+            <label>
+                <input type="checkbox" value="mindfulness">
+                🧘 Mindfulness
+            </label>
+
+            </div>
+
+            <button id="generate-btn">
+                Generate Challenge
+            </button>
+        </main>
+        </div>
+        <script src="script.js"></script>
+    <footer>
+    Ideas to → <a href="mailto:rchallengenerator@gmail.com">rchallengenerator@gmail.com</a>
+</footer>
+    </body>
+</html>
